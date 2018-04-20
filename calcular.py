@@ -2,12 +2,16 @@ num1 = input("Ingrese un numero: ")
 
 num2 = input("Ingrese otro numero: ")
 
-calc = raw_input("Ingrese Sum o Res: ")
+calc = raw_input("Ingrese Sum, Res, Mult, Div: ")
 
 if calc == "Sum":
 	res = num1 + num2
 elif calc == "Res":
 	res = num1 - num2
+elif calc == "Mult":
+	res = num1 * num2
+elif calc == "Div":
+	res = num1 / num2
 else:
 	print "Ingrese una opcion valida"
 
