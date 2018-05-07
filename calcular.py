@@ -8,10 +8,6 @@ if calc == "Sum":
 	res = num1 + num2
 elif calc == "Res":
 	res = num1 - num2
-elif calc == "Mult":
-	res = num1 * num2
-elif calc == "Div":
-	res = num1 / num2
 else:
 	print "Ingrese una opcion valida"
 
